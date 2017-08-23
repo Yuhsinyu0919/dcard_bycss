@@ -1,1 +1,16 @@
-123
+body {
+	margin: 0;
+	background-color: #00324e;
+}
+
+.header {
+	background-color: #00588a;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+
+}
+
+.logo {
+	height: 30px;
+}
