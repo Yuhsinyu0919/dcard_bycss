@@ -13,4 +13,18 @@ body {
 
 .logo {
 	height: 30px;
+	padding: 15px;
+}
+
+.container {
+	width: 95%;
+	
+}
+
+/*-----------------------------*/
+#headsearch {
+	height: 30px;
+	background-color: #00324e;
+	border: 0px;
+	border-radius: 10px;
 }
