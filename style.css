@@ -2,18 +2,24 @@ body {
 	margin: 0;
 	background-color: #00324e;
 }
-
+*{
+	margin:0;
+	padding: 0;
+}
 .header {
-	background-color: #00588a;
+	background-color: #006aa6;
 	height: 60px;
-	position: fixed;
+	/*position: absolute; */
 	width: 100%;
 
 }
 
 .container {
-	width: 95%;
-	
+	width: 90%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto; 
 }
 
 /*-----------------------------*/
@@ -25,18 +31,58 @@ body {
 
 #headsearch {
 	height: 30px;
-	background-color: #00324e;
+	background-color: #00588a;
 	border: 0px;
 	border-radius: 6px;
+	position: absolute;
+	vertical-align: middle;
+	top: 18px;
 }
 
 .head_enrole {
 	color: white;
 	text-decoration: none;
+	position: absolute;
+	right: 80px;
+	top: 20px;
 
 }
 
 .head_enter {
 	color: white;
 	text-decoration: none;
+	position: absolute;
+	right: 15px;
+	top: 20px;
+}
+
+.content_index .container {
+	height: 700px;
+
+}
+
+.content_index .container .frame_center {
+	height: 75%;
+	background: white;
+} 
+
+.frame_left {
+	width: 20%;
+	display: inline-block;	
+	margin: 0 auto;
+
+}
+
+.frame_center {
+	width: 60%;
+	height: 80%;
+	display: inline-block;
+	background: white;
+	margin-top: 0px;
+}
+
+.frame_right {
+	width: 20px;
+	display: inline-block;
+	margin: 0 auto;
 }
