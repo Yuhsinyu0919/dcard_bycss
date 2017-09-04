@@ -144,14 +144,33 @@ body {
 }
 
 .dot_full {
-	list-style-type: none;
-	/*border : 2px solid white; */
+	list-style-type: none; /*列表取消小點點*/
 	height: 35px;
 	width: 135px;
 	border-radius: 5px; 
 }
 
 .full {
-	color: white;
+	color: #89b2c9;
+	text-decoration: none; /*href a 取消底線*/
+	margin: 40px;
+}
+
+.class_board {
+	list-style-image: url('play-button.png');
+	
+}
+
+.classification_board {
+	color: #89b2c9;
+	text-decoration: none;
+}
+
+.sch_board{
+
+}
+
+.school_board {
+	color: #89b2c9;
 	text-decoration: none;
 }
