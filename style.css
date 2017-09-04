@@ -139,10 +139,13 @@ body {
 	margin: 0 auto;
 }
 
+.dot_full:hover {
+	background-color: #4c6f83;
+}
+
 .dot_full {
 	list-style-type: none;
 	/*border : 2px solid white; */
-	background-color: #4c6f83;
 	height: 35px;
 	width: 135px;
 	border-radius: 5px; 
