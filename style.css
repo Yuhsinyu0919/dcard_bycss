@@ -207,10 +207,15 @@ body {
 
 .index_header {
 	padding: 20px 40px;
+	height: 50px;
 }
 
 .index_box {
 	padding: 15px;
+	border-bottom-style: solid;
+	border-bottom-color: #dedede; 
+	border-bottom-width: 1px;
+
 }
 
 /*框架*/
@@ -221,13 +226,13 @@ body {
 .front_hot {
 	display: inline;
 	margin-left: 20px;
-	border: 2px green dashed;
+	/*border: 2px green dashed;*/
 }
 
 .front_latest {
 	display: inline;
 	margin-left: 20px;
-	border: 2px green dashed;
+	/*border: 2px green dashed;*/
 }
 
 .front_post {
@@ -256,7 +261,85 @@ body {
 
 .post {
 	background-color: #3397cf;
+	color: white;
 	font-family: Microsoft JhengHei;
+	font-size: 16px;
 	border: none;   /*無外框*/
+	height: 40px;
+	width: 80px;
+	margin-left: 55%;
+	border-radius: 4px; 
+}
+
+.postpng {
+	width: 15px;
+	height: 15px;
+}
+
+/*------------------------------------*/
+.index-second_box {
+	padding: 20px 50px;
+}
+
+.small-dcardlogo {
+	height: 30px;
+	width: 30px;
+}
+
+.newstudentangle {
+	display: inline;
+	font-family: Microsoft JhengHei;
+	color: #767676;
+	position: absolute;
+	margin-left: 6px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+.article-onthetop {
+	display: inline;
+	border: none; 
+	width: 36px;
+	height: 21px;
+	position: absolute;
+	margin-left: 7%;
+	margin-top: 6px;
+	border-radius: 4px; 
+	color: white;
+	background-color: #a3a3a3;
+	font-size: 14px;
+	font-family: Microsoft JhengHei;
 
 }
+
+.indextitle {
+	font-family: Microsoft JhengHei;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0px;
+}
+
+.indexcontent {
+	font-family: Microsoft JhengHei;
+	color: #767676;
+	font-size: 15px;
+	margin: 5px 0px;
+}
+
+.heartpng {
+	font-family: Microsoft JhengHei;
+	height: 30px;
+	width: 30px;
+	/*margin-top: 10px;*/
+}
+
+
+/*.bypraise {
+	border: none;
+	background-color: #00000000;
+	font-family: Microsoft JhengHei;
+	font-size: 16px;
+	color: white;
+	height: 40px;
+	width: 80px;
+}*/
