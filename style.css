@@ -192,7 +192,7 @@ body {
 
 /*-----------------------------*/
 .content_index .container .frame_center {
-	height: 90%;
+	height: 100%;
 	background: white;
 } 
 
@@ -279,9 +279,15 @@ body {
 /*------------------------------------*/
 .index-second_box {
 	padding: 20px 50px;
+	height: 21%;
 }
 
 .small-dcardlogo {
+	height: 30px;
+	width: 30px;
+}
+
+.small-dcardgirllogo {
 	height: 30px;
 	width: 30px;
 }
@@ -312,6 +318,52 @@ body {
 
 }
 
+.article-onthetop-second {
+	display: inline;
+	border: none; 
+	width: 36px;
+	height: 21px;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 6px;
+	border-radius: 4px; 
+	color: white;
+	background-color: #a3a3a3;
+	font-size: 14px;
+	font-family: Microsoft JhengHei;
+}
+
+.postentry-content {
+	width: 820px;
+	height: 160px;
+	border-bottom-style: solid;
+	border-bottom-color: #dedede; 
+	border-bottom-width: 1px;
+}
+
+.postentry-content-second {
+	margin-top: 20px;
+	float: left;
+}
+
+.postentry-leftcontent {
+	float: left;       /*靠左*/
+}
+
+.postentry-rightcontent {
+	width: 120px;
+	height: 100px;
+	float: right;     /*靠右*/
+	position: absolute;
+	margin-left: 39%;
+	margin-top: 40px;
+}
+
+.postpicture {
+	width: 120px;
+	height: 100px;
+}
+
 .indextitle {
 	font-family: Microsoft JhengHei;
 	font-size: 20px;
@@ -326,20 +378,54 @@ body {
 	margin: 5px 0px;
 }
 
+.buttonbar {
+	margin-top: 15px;
+	
+}
+
 .heartpng {
-	font-family: Microsoft JhengHei;
 	height: 30px;
 	width: 30px;
 	/*margin-top: 10px;*/
 }
 
+.pic-bookmark {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 50px;
+}
 
-/*.bypraise {
-	border: none;
-	background-color: #00000000;
+.describe-heart {
 	font-family: Microsoft JhengHei;
-	font-size: 16px;
-	color: white;
-	height: 40px;
-	width: 80px;
-}*/
+	display: inline;
+	color: #cfcfcf;
+	text-decoration: none;
+	position: absolute;
+	margin-left: 7px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.describe-bookmark {
+	font-family: Microsoft JhengHei;
+	display: inline;
+	color: #cfcfcf;
+	text-decoration: none;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 6px; 
+	font-size: 15px;
+}
+
+.response {
+	font-family: Microsoft JhengHei;
+	display: inline;
+	position: absolute;
+	margin-left: 132px;
+	margin-top: 7px;
+	color: #cfcfcf;
+	text-decoration: none;
+
+}
