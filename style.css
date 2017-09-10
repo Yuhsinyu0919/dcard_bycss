@@ -125,15 +125,17 @@ body {
 
 
 .frame_right {
-	width: 20px;
-	display: inline-block;
-	margin: 0 auto;
+	height: 100%;     /*滿版*/
+	margin: 0 auto;   
+	width: 240px;
+	display: inline-block;	
 }
 
-/*.fanpagepicture {
-	height: 60px;
-	width: 30px;
-} */
+.fanpagepicture {
+	position: absolute;
+	height: 60%;
+	margin-top: 10%;
+}
 
 .dot_full:hover {
 	background-color: #4c6f83;
@@ -316,6 +318,11 @@ body {
 .small-dcardboylogo {
 	height: 30px;
 	width: 30px;
+}
+
+.small-dcardlittlelionlogo {
+	height: 27px;
+	width: 32px;
 }
 
 .newstudentangle {
