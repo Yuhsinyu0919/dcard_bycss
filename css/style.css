@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-	width: 90%;
+	width: 70%;
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
@@ -118,12 +118,11 @@ body {
 
 .frame_left {
 	height: 90%;
-	width: 10%;
+	width: 8%;
 	display: inline-block;	
 	/*margin: 0 auto; */
 	position: absolute;
-	margin-top: 2%;
-	margin-right: 0;
+	margin-top: 1%;
 
 }
 
@@ -154,7 +153,9 @@ body {
 	height: 35px;
 	width: 135px;
 	padding-top: 5px; 
-	margin-top: 10px;
+	/*margin-top: 10px; */
+	background-color: #4c6f83; 
+	border-radius: 5px;
 }
 
 .full {
@@ -167,12 +168,23 @@ body {
 .class_board {
 	list-style-type: none;
 	padding: 10px 5px 10px 10px;
+	margin-top: 5px;
 	/*list-style-image: url('play-button.png');*/
+	height: 20px;
+	width: 120px;
+	border-radius: 5px;
 }
 
-.class_board:hover {
+/*.class_board:hover {
 	background-color: #4c6f83;
 	border-radius: 5px; 
+} */
+
+.frame-post {
+	position: absolute;
+	padding: 5% 30px;
+	width: 80%;
+	height: 80%;
 }
 
 .rightarrow {
@@ -181,14 +193,22 @@ body {
 	margin-right: 10px; 
 }
 
-/*.posttitle {
-	list-style-type: none;
-	padding: 10px 5px 10px 10px;
+.posttitle {
+	/*list-style-type: none;
+	padding: 10px 5px 10px 10px;*/
 	font-family: Microsoft JhengHei;
 	color: #89b2c9;
 	position: absolute;
-	left: 98px;
-}*/
+	left: 15%;
+}
+
+.posttitle_2 {
+	font-family: Microsoft JhengHei;
+	color: #89b2c9;
+	position: absolute;
+	left: 15%;
+	margin-top: 17%;
+}
 
 /*校園看板*/
 .classification_board { 
@@ -221,15 +241,17 @@ body {
 } 
 
 .frame_center {
-	width: 50%;
+	/*width: 50%;*/
 	height: 90%; 
 	display: inline-block;
 	background: white;
 	/*margin: 20px 10px 20px 20px; */
 	border-radius: 4px 4px 0 0; 
 	position: absolute;
-	margin-left: 13%;
-	margin-top: 2%;
+	margin-left: 10%;
+	margin-top: 1%;
+	width: 720px;
+	min-width: 720px;
 }
 
 .index_header {
@@ -389,7 +411,7 @@ body {
 }
 
 .postentry-content {
-	width: 860px;
+	width: 100%;
 	height: 160px;
 	border-bottom-style: solid;
 	border-bottom-color: #dedede; 

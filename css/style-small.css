@@ -1,16 +1,17 @@
 @media screen and (max-width: 768px) {
-.container{
+.container {
 	width: 100%;
 	padding: 0;
 }
-.frame_right{
+.frame_right {
 	display:none;
 }
-.frame_left{
+.frame_left {
 	display: none;
 }
-.frame_center{
+.frame_center {
 	width: 100%;
 	margin: 0;
 }
+
 }
