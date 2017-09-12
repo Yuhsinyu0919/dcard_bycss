@@ -1,7 +1,10 @@
 body {
 	margin: 0;
 	background-color: #00324e;
+
+	font-family: Microsoft JhengHei;
 }
+
 *{
 	margin:0;
 	padding: 0;
@@ -13,7 +16,10 @@ body {
 	width: 100%;
 
 }
+li{
 
+	list-style-type: none;
+}
 .container {
 	width: 70%;
 	padding-right: 15px;
@@ -123,6 +129,7 @@ body {
 	/*margin: 0 auto; */
 	position: absolute;
 	margin-top: 1%;
+	margin-left: 1%;
 
 }
 
@@ -142,6 +149,7 @@ body {
 }
 
 .dot_full:hover {
+
 	background-color: #4c6f83;
 	border-radius: 5px; 
 
@@ -159,20 +167,26 @@ body {
 }
 
 .full {
-	color: #89b2c9;
+	color: white;
 	text-decoration: none; /*href a 取消底線*/
-	margin: 40px;
+	margin: 45px;
+	font-size: 14px;
 }
 
 /*分類看板*/
 .class_board {
 	list-style-type: none;
-	padding: 10px 5px 10px 10px;
+	padding: 10px 5px 10px 0px;
 	margin-top: 5px;
 	/*list-style-image: url('play-button.png');*/
 	height: 20px;
 	width: 120px;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
+	border-bottom-style: solid;
+	border-bottom-color: #4c6f83; 
+	border-bottom-width: 1px;
+
+	color: #89b2c9;
 }
 
 /*.class_board:hover {
@@ -181,10 +195,7 @@ body {
 } */
 
 .frame-post {
-	position: absolute;
-	padding: 5% 30px;
-	width: 80%;
-	height: 80%;
+	position: relative;
 }
 
 .rightarrow {
@@ -192,29 +203,72 @@ body {
 	height: 10px;
 	margin-right: 10px; 
 }
-
-.posttitle {
-	/*list-style-type: none;
-	padding: 10px 5px 10px 10px;*/
-	font-family: Microsoft JhengHei;
+.frame-post li{
 	color: #89b2c9;
-	position: absolute;
-	left: 15%;
+	padding:10px 0 10px 30px;
+    color: hsla(0,0%,100%,.6);
+    background:url("../picture/point.png");
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    margin :0 10px;
+}
+/*世大運*/
+.posttitle {
+	position: relative;
+	left: 0%;
+	font-size: 14px;
 }
 
+.frame-post li:hover {
+	height: 5%;
+	width: 70%;
+	background-color: #00588a;
+	border-radius: 5px; 
+
+}
+
+/*新生季*/
 .posttitle_2 {
+	list-style-type: none;
 	font-family: Microsoft JhengHei;
 	color: #89b2c9;
 	position: absolute;
-	left: 15%;
-	margin-top: 17%;
+	left: 0%;
+	margin-top: 20%;
+	height: 5%;
+	width: 70%;
+	font-size: 14px;
+}
+
+.posttitle_2:hover {
+	height: 5%;
+	width: 70%;
+	background-color: #00588a;
+	border-radius: 5px; 
+}
+
+/*健身*/
+.posttitle_3 {
+	list-style-type: none;
+	font-family: Microsoft JhengHei;
+	color: #89b2c9;
+	position: absolute;
+	left: 0%;
+	margin-top: 40%;
+	font-size: 14px;
+}
+
+.posttitle_3:hover {
+	height: 5%;
+	width: 70%;
+	background-color: #00588a;
+	border-radius: 5px; 
 }
 
 /*校園看板*/
 .classification_board { 
-	color: #89b2c9;
-	text-decoration: none;
-	font-family: Microsoft JhengHei;
 }
 
 .sch_board:hover {

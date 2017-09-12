@@ -38,13 +38,15 @@
 				<!--<button type="button" class="full">全部</button> -->
 				<ul class="frame_left">
 					<li class="dot_full"><a href="#" class="full">全部</a></li>
-					<li class="class_board"><img src="picture/right-arrow.png" class="rightarrow"><a href="#" class="classification_board">分類看板</a></li>
-					<div class="frame-post">
-						<li class="posttitle">世大運</li>
-						<li class="posttitle_2">新生季</li>
-						
-					</div>
-					
+					<li class="class_board"><img src="picture/right-arrow.png" class="rightarrow">分類看板</li>
+					<li class="class_list">
+						<ul class="frame-post">
+							<li class=""> 世大運</li>
+							<li class=""> 新生季</li>
+							<li class=""> 健身</li>
+							
+						</ul>
+					</li>
 					<!-- <li class="sch_board"><img src="picture/right-arrow.png" class="rightarrow"><a href="#" class="school_board">校園看板</a></li> -->
 				</ul>
 			</div>
@@ -247,6 +249,18 @@
 			</div>
 		</div>
 	</div>
+	<script src="http://www.w3school.com.cn/jquery/jquery-1.11.1.min.js" >
+</script>
+<script>
+$(".class_board").click(function(){
+if($(".class_list").css("display")=="none"){
+	$(".class_list").css("display","block");
+}else{
+	$(".class_list").css("display","none");
 
+}
+}
+)
+</script>
 </body>
 </html>
