@@ -144,12 +144,11 @@ li{
 .fanpagepicture {
 	position: absolute;
 	height: 60%;
-	margin-top: 10%;
-	margin-left: 65%; 
+	margin-top: 3%;
+	margin-left: 49%; 
 }
 
 .dot_full:hover {
-
 	background-color: #4c6f83;
 	border-radius: 5px; 
 
@@ -203,16 +202,16 @@ li{
 	height: 10px;
 	margin-right: 10px; 
 }
-.frame-post li{
+.frame-post li {
 	color: #89b2c9;
 	padding:10px 0 10px 30px;
     color: hsla(0,0%,100%,.6);
     background:url("../picture/point.png");
     background-position: center;
-    background-size: 20px;
+    background-size: 10px;
     background-repeat: no-repeat;
     background-position-x: left;
-    margin :0 10px;
+    /*margin :0 10px;*/
 }
 /*世大運*/
 .posttitle {
@@ -374,7 +373,7 @@ li{
 	border: none;   /*無外框*/
 	height: 42px;
 	width: 14%;
-	margin-left: 49%;
+	margin-left: 45%;
 	border-radius: 4px; 
 }
 
@@ -425,7 +424,7 @@ li{
 	width: 36px;
 	height: 21px;
 	position: absolute;
-	margin-left: 13%;
+	margin-left: 15%;
 	margin-top: 6px;
 	border-radius: 4px; 
 	color: white;
@@ -441,7 +440,7 @@ li{
 	width: 36px;
 	height: 21px;
 	position: absolute;
-	margin-left: 15%;
+	margin-left: 17%;
 	margin-top: 6px;
 	border-radius: 4px; 
 	color: white;
@@ -455,7 +454,7 @@ li{
 	font-family: Microsoft JhengHei;
 	border: none;
 	position: absolute;
-	margin-left: 15%;
+	margin-left: 17%;
 	margin-top: 6px;
 	font-size: 14px;
 	background-color: #edad1d;
@@ -486,12 +485,12 @@ li{
 	height: 100px;
 	float: right;     /*靠右*/
 	position: absolute;
-	margin-left: 70%;
+	margin-left: 71%;
 	margin-top: 40px;
 }
 
 .postpicture {
-	width: 120px;
+	width: 100px;
 	height: 100px;
 }
 
